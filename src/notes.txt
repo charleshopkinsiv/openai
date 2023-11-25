@@ -1,0 +1,14 @@
+curl https://api.openai.com/v1/edits \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer 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" \
+  -d '{
+    "model": "	text-davinci-edit-001",
+    "input": "What day of the wek is it?",
+    "instruction": "Rewrite text to be very bland and between 1 - 4 sentences, make it very positive and inspiring, with a title on the first line"}'
+
+  GET
+ 
+
+curl https://api.openai.com/v1/models \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer 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" \
